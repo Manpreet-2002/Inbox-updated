@@ -4,12 +4,12 @@ const Web3 = require('web3');
 const scriptsModule = require('./scripts')
 
 const seedPhrase = scriptsModule.seedPhrase;
-const ropstenInfuraKey = scriptsModule.ropstenInfuraKey;
+const rinkebyInfuraKey = scriptsModule.rinkebyInfuraKey;
 
 const { abi, evm } = require('./compile');
  
 provider = new HDWalletProvider(
-  seedPhrase, ropstenInfuraKey
+  seedPhrase, rinkebyInfuraKey
 );
  
 const web3 = new Web3(provider);

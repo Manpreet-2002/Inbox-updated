@@ -6,7 +6,7 @@ In this project web3 javascript library is used along with the solidity language
 
 I first tested the contract on the ganache local network and wrote tests using the mocha test framework. Then I used truffle's HDWalletProvider as a provider and the Infura API to connect to the rinkeby test network.
 
-NOTE:- To run this application, add a scripts.js file in the ethereum folder and add the following code
+NOTE:- To run this application, add a scripts.js file in the INBOX_UPDATED folder and add the following code
 
 ```
 const seedPhrase = "YOUR 12 WORD SEED PHRASE"
